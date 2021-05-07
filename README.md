@@ -1,4 +1,4 @@
-# partybox
+# Felix partybox
 
 ## Project setup
 ```
