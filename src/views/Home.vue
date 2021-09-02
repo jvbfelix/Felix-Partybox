@@ -3,10 +3,10 @@
     <Container v-if="mural" :end=invision />
     <section class="page">
       <div class="cont">
-        <h1>Breguinha do Felix</h1>
-        <p>Bem-Vindo ao breguinha do Felix, a minha festa de aniversário</p>
+        <h1>Torre de Interação</h1>
+        <p>Bem-Vindo ao Momento de contrução do ENEJ, a minha festa de aniversário</p>
         <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/-WykqQzZspA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-        <div class="video" id="player" data-plyr-provider="youtube" data-plyr-embed-id="-WykqQzZspA"></div>
+        <div class="video" id="player" data-plyr-provider="youtube" data-plyr-embed-id="Czsjo6S-Q3g"></div>
         <br><router-link to="/about"><button class="ntx">Continuar para a Festa</button></router-link>
       </div>
     </section>
@@ -40,7 +40,7 @@ export default {
 
 <style lang="scss">
 .page {
-  background-image: url("https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
   min-height: 100vh;
   background-size: cover;
   background-position: center;

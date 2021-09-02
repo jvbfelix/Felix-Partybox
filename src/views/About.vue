@@ -6,7 +6,7 @@
     scrolling="no" 
     allowfullscreen="true" allow="camera;microphone">
     </iframe>
-    <div v-if="!presentes" v-on:click="showpresentes()" class="presentes-btn">Sala de presentes🎁</div>
+    <div v-if="!presentes" v-on:click="showpresentes()" class="presentes-btn">Sala de Construção 📝</div>
      <Container v-if="presentes" v-on:click="closepresentes()" func="presentesOff" :end=invision />
   </div>
 </template>
